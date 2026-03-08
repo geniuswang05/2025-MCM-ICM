@@ -91,9 +91,5 @@ plt.grid(True, linestyle='--', alpha=0.3)
 plt.tight_layout()
 
 # Save the figure
-plt.savefig(
-    "/Users/lauren/Desktop/x1carbon/美赛/unified_ecosystem_dynamics.png",
-    dpi=300,
-    bbox_inches='tight'
-)
+plt.savefig("../figures/unified_ecosystem_dynamics.png", dpi=300)
 plt.show()
